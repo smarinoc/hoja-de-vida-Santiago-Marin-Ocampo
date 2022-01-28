@@ -14,12 +14,12 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "no-restricted-imports": [
-      "error",
+      "off",
       {
         "patterns": [".*"]
       }
     ],
-    "prefer-destructuring": "warn",
+    "prefer-destructuring": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".js"] }],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
@@ -30,8 +30,8 @@
     "no-underscore-dangle": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "arrow-body-style": "warn",
-    "no-nested-ternary": "warn",
+    "arrow-body-style": "off",
+    "no-nested-ternary": "off",
     "react/function-component-definition": "off",
     "prettier/prettier": [
       "error",
@@ -39,9 +39,9 @@
         "endOfLine": "auto"
       }
     ],
-    "no-console": "error",
+    "no-console": "off",
     "jsx-a11y/anchor-is-valid": [
-      "error",
+      "off",
       {
         "components": ["Link"],
         "specialLink": ["hrefLeft", "hrefRight"],
