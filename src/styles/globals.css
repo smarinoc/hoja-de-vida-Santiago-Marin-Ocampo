@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.titulo {
+    @apply text-ColorLetraTexto text-[36px] font-sans;
+  }
+
+.subtitulo {
+    @apply text-ColorLetraTexto text-[24px] font-sans;
+  }
+
+.texto {
+    @apply text-ColorLetraTexto text-[18px] font-sans;
+  }
+
+ 

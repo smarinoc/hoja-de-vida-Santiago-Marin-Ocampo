@@ -5,10 +5,10 @@ import React from 'react';
 
 const CajaTexto = ({ titulo, propiedad1, propiedad2 }) => {
     return (
-        <div className='flex-1 flex-col text-center bg-ColorPrimarioFuerte m-2 border-2 border-ColorSecundarioFuerte '>
-            <h3>{titulo}</h3>
-            <p>{propiedad1}</p>
-            <span>{propiedad2}</span>
+        <div className='flex flex-col gap-y-5 text-center bg-ColorPrimarioFuerte  p-3 border-2 border-ColorSecundarioFuerte rounded-[20px] '>
+            <h3 className='subtitulo'>{titulo}</h3>
+            <p className='texto'>{propiedad1}</p>
+            <span className='texto'>{propiedad2}</span>
         </div>
     );
 };
