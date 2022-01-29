@@ -4,12 +4,17 @@ module.exports = {
   theme: {
     colors: {
       // eslint-disable-next-line prettier/prettier
-      'ColorPrimarioFuerte': '#26798E',
-      'ColorPrimarioMedio': '#26798E',
-      'ColorSecundarioFuerte': '#752092',
+      'ColorPrimario': '#26798E',
+      'ColorSecundario': '#752092',
+      'ColorTerciario': '#FFC872',
       'ColorLetraTexto': '#FFFFFF',
       'ColorTitulo': '#484747',
-      'ColorTerciarioMedio': '#FFC872'
+      'ColorBackground': '#F8F3F3'
+    },
+    fontSize: {
+      'titulo': '25px',
+      'subtitulo': '22px',
+      'texto': '18px'
     },
     extend: {},
   },

@@ -4,15 +4,25 @@
 
 
 .titulo {
-    @apply text-ColorLetraTexto text-[36px] font-sans;
+    @apply text-ColorTitulo text-titulo font-sans;
   }
 
 .subtitulo {
-    @apply text-ColorLetraTexto text-[24px] font-sans;
+    @apply text-ColorLetraTexto text-subtitulo font-sans;
   }
 
 .texto {
-    @apply text-ColorLetraTexto text-[18px] font-sans;
+    @apply text-ColorLetraTexto text-texto font-sans;
   }
 
- 
+ .roundedCaja{
+   @apply rounded-br-[20px] rounded-tl-[20px]
+ }
+
+ .roundedAtributo{
+  @apply border-2 border-ColorSecundario rounded-[20px]
+}
+
+.divFlex{
+  @apply flex flex-col gap-y-3
+}
