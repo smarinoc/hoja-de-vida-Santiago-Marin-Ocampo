@@ -1,0 +1,76 @@
+{
+    "cabezera": {
+        "titulo": "Santiago Marín Ocampo",
+        "titulación": "Estudiante de octavo semestre de ingeniería en sistemas",
+        "correo": "santiagomarinocampo@gmail.com",
+        "ubicacíon": "Medellín, Antioquia, Colombia"
+    },
+    "sobreMí": {
+        "titulo": "Sobre mí",
+        "perfil": "Estudiante en últimos semestres de la carrera ingeniería de sistemas, con sentido de pertenencia, respetuoso hacia sus compañeros, honesto, capacidad para adaptarse fácilmente y fácil aprendizaje."
+    },
+    "interesesYHobbies": {
+        "titulo": "Sobre mí",
+        "atributos": [
+            "Apasionado por la programación",
+            "Desarrollo móvil",
+            "Fan de videojuegos",
+            "Ciclista regular"
+        ]
+    },
+    "habilidades": {
+        "titulo": "Habilidades",
+        "atributos": [
+            "Pensamiento Lógica",
+            "Autoevaluación",
+            "Adaptabilidad",
+            "Resolución de problemas"
+        ]
+    },
+    "idiomas": {
+        "titulo": "Idiomas",
+        "atributos": [
+            "Español Nivel: Nativo",
+            "Inglés  Nivel A2"
+        ]
+    },
+    "informaciónAcadémica": {
+        "titulo": "Información académica",
+        "cajas": [
+            {
+                "h1": "Bachiller con énfasis en desarrollo de software",
+                "h2": "I. E. Francisco Miranda",
+                "h3": "2011-2016"
+            },
+            {
+                "h1": "Medio técnico en desarrollo de software ",
+                "h2": "Politécnico Colombiano Jaime Isaza Cadavid",
+                "h3": "2014- 2016"
+            },
+            {
+                "h1": "Ingeniería de sistemas",
+                "h2": "Universidad de Antioquia",
+                "h3": "2017-Actualidad"
+            }
+        ]
+    },
+    "experienciaLaboral": {
+        "titulo": "Experiencia laboral",
+        "cajas": [
+            {
+                "h1": "Soporte técnico call center",
+                "h2": "Emtelco",
+                "h3": "3 meses"
+            }
+        ]
+    },
+    "contacto": {
+        "titulo": "Contacto",
+        "atributos": [
+            "Correo electrónico santiagomarinocampo@gmail.com",
+            "Teléfono móvil +57 3126684942",
+            "GitHub https://github.com/Santiango",
+            "LinkedIn https://www.linkedin.com/in/santiago-marin-ocampo-478198227/"
+        ]
+    }
+}
