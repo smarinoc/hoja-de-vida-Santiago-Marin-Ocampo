@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
-.titulo {
-    @apply text-ColorTitulo text-titulo font-sans;
+.título {
+    @apply text-ColorTítulo text-título font-sans;
   }
 
-.subtitulo {
-    @apply text-ColorLetraTexto text-subtitulo font-sans;
+.subtítulo {
+    @apply text-ColorLetraTexto text-subtítulo font-sans;
   }
 
 .texto {

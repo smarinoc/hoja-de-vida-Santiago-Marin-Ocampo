@@ -1,13 +1,16 @@
 import React from 'react';
 import CajaAtributo from 'components/CajaAtributo';
 import CajaInformacíon from 'components/CajaInformación';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const CajaInfoAtributo = ({ titulo, atributos }) => (
   <CajaInformacíon titulo={titulo}>
-    <div className='grid flex-col gap-3 xl:grid-cols-2'>
+    <div className='grid gap-3 xl:grid-cols-2'>
       {atributos.map((item) => (
-        <CajaAtributo Característica={item} icon={faStar} />
+        <CajaAtributo
+          Característica={item.Característica}
+          tipoIcon={item.tipoIcono}
+          icon={item.icon}
+        />
       ))}
     </div>
   </CajaInformacíon>

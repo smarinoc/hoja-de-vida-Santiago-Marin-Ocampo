@@ -6,7 +6,7 @@ import CajaInfoTexto from 'components/CajaInfoTexto';
 import CajaInfoAtributo from 'components/CajaInfoAtributo';
 
 const HojaVida = () => (
-  <div className='flex flex-col px-5 py-8 gap-y-5 bg-ColorBackground'>
+  <div className='divFlex px-5 py-8 bg-ColorBackground'>
     <div className='flex flex-col md:flex-row gap-5 items-center'>
       <img src={foto} alt='Foto perfil' width={300} height={300} />
 
@@ -18,7 +18,7 @@ const HojaVida = () => (
     </div>
 
     <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
-      <div className='flex flex-col gap-y-5'>
+      <div className='divFlex'>
         <CajaInformacíon titulo={data.sobreMí.titulo}>
           <p className='texto text-center'>{data.sobreMí.perfil}</p>
         </CajaInformacíon>
@@ -29,7 +29,7 @@ const HojaVida = () => (
         />
       </div>
 
-      <div className='flex flex-col gap-y-5'>
+      <div className='divFlex'>
         <CajaInfoAtributo
           titulo={data.habilidades.titulo}
           atributos={data.habilidades.atributos}

@@ -12,26 +12,67 @@
     "interesesYHobbies": {
         "titulo": "Sobre mí",
         "atributos": [
-            "Apasionado por la programación",
-            "Desarrollo móvil",
-            "Fan de videojuegos",
-            "Ciclista regular"
+            {
+                "Característica": "Apasionado por la programación",
+                "tipoIcono": "fa",
+                "icon": "laptop"
+            },
+            {
+                "Característica": "Desarrollo móvil",
+                "tipoIcono": "fa",
+                "icon": "tablet-alt"
+            },
+            {
+                "Característica": "Fan de videojuegos",
+                "tipoIcono": "fa",
+                "icon": "gamepad"
+            },
+            {
+                "Característica": "Ciclista regular",
+                "tipoIcono": "fa",
+                "icon": "bicycle"
+            }
         ]
     },
     "habilidades": {
         "titulo": "Habilidades",
         "atributos": [
-            "Pensamiento Lógica",
-            "Autoevaluación",
-            "Adaptabilidad",
-            "Resolución de problemas"
+            {
+                "Característica": "Pensamiento Lógico",
+                "tipoIcono": "fa",
+                "icon": "chess-knight"
+            },
+            {
+                "Característica": "Autoevaluación",
+                "tipoIcono": "fa",
+                "icon": "tasks"
+            },
+            {
+                "Característica": "Adaptabilidad",
+                "tipoIcono": "fa",
+                "icon": "puzzle-piece"
+            },
+            {
+                "Característica": "Resolución de problemas",
+                "tipoIcono": "far",
+                "icon": "lightbulb"
+            }
         ]
+       
     },
     "idiomas": {
         "titulo": "Idiomas",
         "atributos": [
-            "Español Nivel: Nativo",
-            "Inglés  Nivel A2"
+            {
+                "Característica": "Español Nivel: Nativo",
+                "tipoIcono": "-",
+                "icon": "-"
+            },
+            {
+                "Característica": "Inglés  Nivel A2",
+                "tipoIcono": "-",
+                "icon": "-"
+            }
         ]
     },
     "informaciónAcadémica": {
@@ -67,10 +108,26 @@
     "contacto": {
         "titulo": "Contacto",
         "atributos": [
-            "Correo electrónico santiagomarinocampo@gmail.com",
-            "Teléfono móvil +57 3126684942",
-            "GitHub https://github.com/Santiango",
-            "LinkedIn https://www.linkedin.com/in/santiago-marin-ocampo-478198227/"
+            {
+                "Característica": "Correo electrónico santiagomarinocampo@gmail.com",
+                "tipoIcono": "fa",
+                "icon": "envelope"
+            },
+            {
+                "Característica": "Teléfono móvil +57 3126684942",
+                "tipoIcono": "fa",
+                "icon": "phone-alt"
+            },
+            {
+                "Característica": "GitHub https://github.com/Santiango",
+                "tipoIcono": "brands",
+                "icon": "github"
+            },
+            {
+                "Característica": "LinkedIn https://www.linkedin.com/in/santiago-marin-ocampo-478198227/",
+                "tipoIcono": "brands",
+                "icon": "linkedin"
+            }
         ]
     }
 }
