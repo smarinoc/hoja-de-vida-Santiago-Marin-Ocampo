@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     colors: {
       ColorPrimario: '#26798E',
-      ColorSecundario: '#752092',
+      ColorSecundario: '#FFFFFF',
       ColorTerciario: '#FFC872',
       ColorLetraTexto: '#FFFFFF',
       ColorTítulo: '#484747',
