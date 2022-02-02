@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'fontawesome.js';
 
 const CajaAtributo = ({ Característica, tipoIcon, icon }) => (
-  <div className='flex items-center place-content-center gap-4 roundedAtributo bg-ColorPrimario p-3 flex-wrap '>
+  <div className='flex items-center place-content-center gap-4 roundedAtributo bg-ColorPrimario p-3 flex-wrap'>
     <FontAwesomeIcon
       icon={['fa', 'star']}
       className='text-ColorSecundario'

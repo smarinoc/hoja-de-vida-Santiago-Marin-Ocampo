@@ -1,7 +1,7 @@
 import React from 'react';
-import data from 'data/data.json';
+import data from 'assets/data.json';
 import CajaInformacíon from 'components/CajaInformación';
-import foto from 'data/foto.jpg';
+import foto from 'assets/foto.jpg';
 import CajaInfoTexto from 'components/CajaInfoTexto';
 import CajaInfoAtributo from 'components/CajaInfoAtributo';
 
