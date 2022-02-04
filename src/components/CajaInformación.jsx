@@ -5,7 +5,7 @@ const CajaInformacíon = ({ título, children }) => (
     <div className='bg-ColorTerciario roundedCaja'>
       <h2 className='título text-ColorTítulo text-center'>{título}</h2>
     </div>
-    <div className='bg-ColorPrimario bg-opacity-80 p-3 roundedCaja'>
+    <div className='bg-ColorPrimario bg-opacity-80 p-3 roundedCaja h-full'>
       {children}
     </div>
   </div>
