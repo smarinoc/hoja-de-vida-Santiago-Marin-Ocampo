@@ -1,16 +1,16 @@
 {
-    "cabezera": {
-        "titulo": "Santiago Marín Ocampo",
-        "titulación": "Estudiante de octavo semestre de ingeniería en sistemas",
+    "cabecera": {
+        "título": "Santiago Marín Ocampo",
+        "profesión": "Estudiante de octavo semestre de ingeniería en sistemas",
         "correo": "santiagomarinocampo@gmail.com",
         "ubicacíon": "Medellín, Antioquia, Colombia"
     },
     "sobreMí": {
-        "titulo": "Sobre mí",
+        "título": "Sobre mí",
         "perfil": "Estudiante en últimos semestres de la carrera ingeniería de sistemas, con sentido de pertenencia, respetuoso hacia sus compañeros, honesto, capacidad para adaptarse fácilmente y fácil aprendizaje."
     },
     "interesesYHobbies": {
-        "titulo": "Sobre mí",
+        "título": "Sobre mí",
         "atributos": [
             {
                 "Característica": "Apasionado por la programación",
@@ -35,7 +35,7 @@
         ]
     },
     "habilidades": {
-        "titulo": "Habilidades",
+        "título": "Habilidades",
         "atributos": [
             {
                 "Característica": "Pensamiento Lógico",
@@ -61,7 +61,7 @@
        
     },
     "idiomas": {
-        "titulo": "Idiomas",
+        "título": "Idiomas",
         "atributos": [
             {
                 "Característica": "Español Nivel: Nativo",
@@ -76,7 +76,7 @@
         ]
     },
     "informaciónAcadémica": {
-        "titulo": "Información académica",
+        "título": "Información académica",
         "cajas": [
             {
                 "h1": "Bachiller con énfasis en desarrollo de software",
@@ -96,7 +96,7 @@
         ]
     },
     "experienciaLaboral": {
-        "titulo": "Experiencia laboral",
+        "título": "Experiencia laboral",
         "cajas": [
             {
                 "h1": "Soporte técnico call center",
@@ -106,7 +106,7 @@
         ]
     },
     "contacto": {
-        "titulo": "Contacto",
+        "título": "Contacto",
         "atributos": [
             {
                 "Característica": "Correo electrónico santiagomarinocampo@gmail.com",

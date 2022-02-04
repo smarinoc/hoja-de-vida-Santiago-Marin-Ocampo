@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CajaInformacíon = ({ titulo, children }) => (
+const CajaInformacíon = ({ título, children }) => (
   <div className='divFlex w-full'>
     <div className='bg-ColorTerciario roundedCaja'>
-      <h2 className='título text-ColorTítulo text-center'>{titulo}</h2>
+      <h2 className='título text-ColorTítulo text-center'>{título}</h2>
     </div>
     <div className='bg-ColorPrimario bg-opacity-80 p-3 roundedCaja'>
       {children}

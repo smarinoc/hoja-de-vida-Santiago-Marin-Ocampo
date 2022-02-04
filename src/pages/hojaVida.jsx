@@ -10,32 +10,32 @@ const HojaVida = () => (
     <div className='flex flex-col md:flex-row gap-5 items-center'>
       <img src={foto} alt='Foto perfil' width={300} height={300} />
 
-      <CajaInformacíon titulo={data.cabezera.titulo}>
-        <p className='texto text-center'>{data.cabezera.titulación}</p>
-        <p className='texto text-center'>{data.cabezera.correo}</p>
-        <p className='texto text-center'>{data.cabezera.ubicacíon}</p>
+      <CajaInformacíon título={data.cabecera.título}>
+        <p className='texto text-center'>{data.cabecera.profesión}</p>
+        <p className='texto text-center'>{data.cabecera.correo}</p>
+        <p className='texto text-center'>{data.cabecera.ubicacíon}</p>
       </CajaInformacíon>
     </div>
 
     <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
       <div className='divFlex'>
-        <CajaInformacíon titulo={data.sobreMí.titulo}>
+        <CajaInformacíon título={data.sobreMí.título}>
           <p className='texto text-center'>{data.sobreMí.perfil}</p>
         </CajaInformacíon>
 
         <CajaInfoAtributo
-          titulo={data.interesesYHobbies.titulo}
+          título={data.interesesYHobbies.título}
           atributos={data.interesesYHobbies.atributos}
         />
       </div>
 
       <div className='divFlex'>
         <CajaInfoAtributo
-          titulo={data.habilidades.titulo}
+          título={data.habilidades.título}
           atributos={data.habilidades.atributos}
         />
         <CajaInfoAtributo
-          titulo={data.idiomas.titulo}
+          título={data.idiomas.título}
           atributos={data.idiomas.atributos}
         />
       </div>
@@ -43,17 +43,17 @@ const HojaVida = () => (
 
     <div className='flex flex-col xl:flex-row gap-5'>
       <CajaInfoTexto
-        titulo={data.informaciónAcadémica.titulo}
+        título={data.informaciónAcadémica.título}
         atributos={data.informaciónAcadémica.cajas}
       />
       <CajaInfoTexto
-        titulo={data.experienciaLaboral.titulo}
+        título={data.experienciaLaboral.título}
         atributos={data.experienciaLaboral.cajas}
       />
     </div>
 
     <CajaInfoAtributo
-      titulo={data.contacto.titulo}
+      título={data.contacto.título}
       atributos={data.contacto.atributos}
     />
   </div>
